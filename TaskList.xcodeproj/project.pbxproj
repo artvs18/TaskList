@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		514F28082936833700560731 /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514F28072936833700560731 /* AlertController.swift */; };
 		51F76C63292A9AE600B29859 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F76C62292A9AE600B29859 /* StorageManager.swift */; };
 		A8580EDE2926A14400480465 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8580EDD2926A14400480465 /* AppDelegate.swift */; };
 		A8580EE02926A14400480465 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8580EDF2926A14400480465 /* SceneDelegate.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		514F28072936833700560731 /* AlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
 		51F76C62292A9AE600B29859 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		A8580EDA2926A14400480465 /* TaskList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8580EDD2926A14400480465 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +83,14 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		514F28092936834500560731 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				514F28072936833700560731 /* AlertController.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		51F76C64292A9AFF00B29859 /* Services */ = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +124,7 @@
 				513C0F8D29291F62008B0452 /* Storyboards */,
 				513C0F8F29292288008B0452 /* Models */,
 				51F76C64292A9AFF00B29859 /* Services */,
+				514F28092936834500560731 /* Extensions */,
 			);
 			path = TaskList;
 			sourceTree = "<group>";
@@ -134,6 +145,8 @@
 			dependencies = (
 			);
 			name = TaskList;
+			packageProductDependencies = (
+			);
 			productName = TaskList;
 			productReference = A8580EDA2926A14400480465 /* TaskList.app */;
 			productType = "com.apple.product-type.application";
@@ -162,6 +175,8 @@
 				Base,
 			);
 			mainGroup = A8580ED12926A14400480465;
+			packageReferences = (
+			);
 			productRefGroup = A8580EDB2926A14400480465 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -192,6 +207,7 @@
 				A8580EE22926A14400480465 /* TaskListViewController.swift in Sources */,
 				51F76C63292A9AE600B29859 /* StorageManager.swift in Sources */,
 				A8580EDE2926A14400480465 /* AppDelegate.swift in Sources */,
+				514F28082936833700560731 /* AlertController.swift in Sources */,
 				A8580EE02926A14400480465 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
